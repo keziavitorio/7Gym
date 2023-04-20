@@ -1,0 +1,238 @@
+/* RESET CSS
+----------*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* RESET CSS
+----------*/
+
+body {
+  background: #1e1e1e;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  background: #323238;
+  margin: auto;
+  width: 354px;
+  height: 371px;
+  border-radius: 10px;
+  position: absolute;
+  inset: 0;
+}
+
+.logo {
+  padding-top: 50px;
+  padding-left: 97px;
+}
+
+.img-center {
+  padding-top: 27px;
+  padding-left: 111px;
+}
+
+/* botão
+----------*/
+
+.button-start {
+  display: block;
+  background: #c57c0f;
+  width: 312px;
+  height: 47px;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 21px;
+  margin-top: 28px;
+}
+
+.button-text {
+  font-size: 18px;
+  padding: 13px 104px 13px 122px;
+}
+
+/* campo usuário
+----------*/
+
+.login {
+  width: 315px;
+  height: 46px;
+  display: block;
+  background: #121214;
+  border: 1px solid #121214;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-top: 62px;
+}
+
+.password {
+  width: 315px;
+  height: 46px;
+  display: block;
+  background: #121214;
+  border: 1px solid #121214;
+  border-radius: 8px;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+input::placeholder {
+  color: #7c7c8a;
+  padding-left: 21px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.button {
+  background: #c57c0f;
+  width: 320px;
+  height: 47px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  margin-top: 22px;
+  margin-left: 21px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  filter: opacity(75%);
+}
+
+.null-account {
+  display: block;
+  font-size: 12px;
+  text-transform: none;
+  color: #7c7c8a;
+  margin-top: 7px;
+}
